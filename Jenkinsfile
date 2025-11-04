@@ -7,7 +7,7 @@ pipeline {
  stages {
   stage('Checkout'){
    git branch: 'main',
-   url: https://github.com/zongs82-max/source-maven-java-spring-hello-webapp.git
+   url: 'https://github.com/zongs82-max/source-maven-java-spring-hello-webapp.git'
   }
  }
 
